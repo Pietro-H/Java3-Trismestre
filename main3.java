@@ -1,12 +1,8 @@
 public class main3 {
     public static void main(String[] args) {
-        Gerente gerente = new Gerente("Carlos Silva", 8000.0, "Tecnologia");
+        Carro meuCarro = new Carro("Toyota", "Corolla", 4);
 
-        gerente.gerenciar();
-        System.out.println("Salário antigo: R$ " + gerente.getSalario());
-        gerente.aumentarSalario(10); 
-        System.out.println("Novo salário após aumento: R$ " + gerente.getSalario());
+        meuCarro.exibirInfo();
+        meuCarro.buzinar();
     }
 }
-
-

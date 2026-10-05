@@ -1,13 +1,12 @@
 public class main4 {
     public static void main(String[] args) {
-        Produto p1 = new Produto("Notebook", 3500.00, 10);
+        Gerente gerente = new Gerente("Carlos Silva", 8000.0, "Tecnologia");
 
-        p1.setPreco(-500); 
-        p1.adicionarEstoque(5); 
-        p1.removerEstoque(7);   
-        p1.removerEstoque(20);  
+        gerente.gerenciar();
+        System.out.println("Salário antigo: R$ " + gerente.getSalario());
+        gerente.aumentarSalario(10); 
+        System.out.println("Novo salário após aumento: R$ " + gerente.getSalario());
     }
 }
 
-    
 
