@@ -1,5 +1,4 @@
 public class Veiculo {
-    
     protected String marca;
     protected String modelo;
 
@@ -7,7 +6,6 @@ public class Veiculo {
         this.marca = marca;
         this.modelo = modelo;
     }
-
     public void buzinar() {
         System.out.println("Bi bi!");
     }
